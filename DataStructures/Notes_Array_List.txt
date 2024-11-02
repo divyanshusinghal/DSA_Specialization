@@ -1,0 +1,16 @@
+Array lists are backed by arrays, therefore they end up sharing a lot of its properties and limitations.
+
+Adding to back of an array where capacity is not filled = O(1)
+Adding to back of array where capacity is filled = O(n)
+Amortized Analysis = O(1)*
+
+Adding anywhere else = O(n)
+
+Removing from the back of an array = O(1)
+Removing from anywhere else in the array = O(n)
+
+Accessing an element at a particular index = O(1)
+
+Searching for an element in an array list (whose index is unknown) = O(n)
+
+
